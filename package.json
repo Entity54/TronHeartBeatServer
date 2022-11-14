@@ -1,0 +1,31 @@
+{
+  "name": "heartbeatserver",
+  "version": "1.0.0",
+  "description": "Tron HeartBeat",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.6.1",
+    "config": "^1.31.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "^3.1.0",
+    "dotenv": "^8.2.0",
+    "eventemitter2": "^5.0.1",
+    "express": "^4.14.0",
+    "http-errors": "~1.6.2",
+    "https-proxy-agent": "^2.2.1",
+    "lodash": "^4.17.10",
+    "mathjs": "^6.0.3",
+    "morgan": "~1.9.0",
+    "request": "^2.88.2",
+    "socks-proxy-agent": "^4.0.1",
+    "string-hash": "^1.1.3",
+    "superagent": "^5.1.0",
+    "tronweb": "^4.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
